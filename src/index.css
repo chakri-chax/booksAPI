@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px  ;
+  gap: 10px;
+  background-color: #E7E2E2;
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
+}
+
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  width: 100px;
+  height: 150px;
+}
